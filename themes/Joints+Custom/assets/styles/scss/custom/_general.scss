@@ -1,0 +1,112 @@
+header h1 {
+  display: none;
+}
+
+.footer {
+  margin-top: 0;
+}
+.h-line {
+  width: 60%;
+  height: 1px;
+}
+
+.main-content {
+  h1 {
+    padding: 0 0 30px;
+  }
+
+  .h-line {
+    background-color: #03AEEF;
+    position: relative;
+    left: -10vw;
+  }
+
+  p {
+    margin: 20px auto;
+  }
+
+}
+
+section.main {
+  margin: 100px auto 0;
+}
+
+////////////////////////
+///// TOP BAR MENU /////
+////////////////////////
+
+.menu .active>a, .menu .is-active>a {
+  background: transparent;
+  color: #03AEEF;
+  border-bottom: 2px solid #03AEEF;
+}
+
+.top-bar, .top-bar ul {
+  background-color: white
+}
+
+#top-bar-menu.top-bar {
+  border-bottom: 1px solid #F2F2F2;
+
+}
+
+#logo {
+  width: 400px;
+  height: auto;
+  min-width: 400px;
+}
+
+////////////////////////
+///// HERO BANNER //////
+////////////////////////
+
+.hero-banner {
+  margin: 6vw auto;
+}
+
+.hero {
+  .h-line {
+    background-color: #03AEEF;
+    position: relative;
+    left: -10vw;
+  }
+}
+
+.box-container,
+.footer-menu,
+.full-width.footer {
+  height: auto;
+  display: flex;
+  flex-direction: row wrap;
+
+}
+
+////////////////////////
+///// COLS DEFINED /////
+////////////////////////
+
+.full-width {
+  width: 100%;
+  margin: auto;
+}
+
+.flex-2-col {
+  width: calc(50% - 20px);
+  // display: flex;
+  margin-right: 20px;
+}
+
+.flex-3-col {
+  width: calc(100% / 3 - 40px);
+  // display: flex;
+}
+
+.flex-4-col {
+  width: calc(25% - 60px);
+}
+
+.flex-2-col:last-of-type,
+.flex-3-col:last-of-type,
+.flex-4-col:last-of-type {
+  margin-right: 0px;
+}
