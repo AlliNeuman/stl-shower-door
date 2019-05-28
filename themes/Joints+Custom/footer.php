@@ -27,7 +27,7 @@
 
 <div class="footer-menu full-width">
 
-  <div class="flex-3-col">
+  <div class="flex-2-col even">
     <ul class="nav-menu">
       <li class="nav-item">
         <span class="head">Company</span>
@@ -48,7 +48,7 @@
     </ul>
   </div>
 
-  <div class="flex-3-col">
+  <div class="flex-2-col">
     <ul class="nav-menu">
       <li class="nav-item">
         <span class="head">Services</span>

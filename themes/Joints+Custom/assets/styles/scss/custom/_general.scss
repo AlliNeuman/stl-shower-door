@@ -77,7 +77,19 @@ section.main {
 .full-width.footer {
   height: auto;
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: row;
+
+  // @include desktop {
+  //   display: block;
+  // }
+
+  @include tablet {
+    display: block;
+  }
+
+  @include mobile {
+    display: block;
+  }
 
 }
 
@@ -105,8 +117,30 @@ section.main {
   width: calc(25% - 60px);
 }
 
+.flex-2-col,
+.flex-3-col,
+.flex-4-col {
+  @include tablet {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+  }
+
+  @include mobile {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+  }
+}
+
 .flex-2-col:last-of-type,
 .flex-3-col:last-of-type,
 .flex-4-col:last-of-type {
   margin-right: 0px;
+}
+
+.even {
+  justify-content: space-evenly;
 }
